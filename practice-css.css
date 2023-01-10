@@ -1,0 +1,115 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(232, 232, 232);
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 126px;
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-family: Arial;
+    font-weight: 100;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #333;
+    opacity: 0.6;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.main { 
+    width: 842px;
+    height: 1472px;
+    margin: auto;
+}
+
+.first-letter {
+    font-family: 'Times New Roman', serif, regular;
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 74px;
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    height: 561px;
+    background: url('img/background.png') 0 0/100% auto no-repeat;;
+
+}
+img {
+    display: inline-block;
+    text-align: center;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.first-p    {
+    font-size: 24px;
+    line-height: 40px;
+    color: #333;
+    margin-left: 40px;
+    color: rgba(51, 51, 51, 0.8);
+}
+.second-p {
+    font-size: 24px;
+    line-height: 40px;
+    color: #333;
+    margin-left: 40px;
+    margin-bottom: 60px;
+    color: rgba(51, 51, 51, 0.8);
+}
+ul{
+    margin-bottom: 50px;
+}
+li {
+    list-style-type: none;
+}
+.ico {
+  background: url(img/check.png) no-repeat;
+  padding: 0px 0px 10px 35px; 
+  font-size: 20px;
+  color: #333;
+}
+.italic {
+    font-size: 20px;
+    font-style: italic;
+    color: #99cccc;
+}
+.bold {
+    font-size: 20px;
+    font-weight: 700;
+}
+.line {
+    font-size: 20px;
+    text-decoration: line-through;
+    color: gray;
+}
+button {
+  margin-left: 40px;
+  width: 200px;
+  height: 44px;
+  border-radius: 25px;
+  background-color: rgb(129, 184, 180);
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+
+}
+img {
+ background-color: rgb(129, 184, 180);
+    background-size: cover;
+    width: 20px;
+    height: 10px;
+    margin-left: 8px;
+
+}
